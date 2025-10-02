@@ -30,10 +30,8 @@ En esta sección deben eliminar esta línea de texto, borrar la leyenda "Integra
     - No. de Cuenta: 323177308
 
 ## Comentarios
-La funcion de sumar binarios funcionaba un poco rara, creo haberla arreglado, pero no estoy seguro.
-Segun yo, lo que hacia era poner primero los valores de mas importancia al principio, quise hacer que se invierta, sim embargo no se si funvcione.
+Intente ejecutar el archivo de tests, pero no funciono, me salio lo siguiente:
 
-Tambien intente ejecutar el archivo de tests, pero no funciono, me salio lo siguiente:
 gusdlhx@fedora:~/ED2026-1-Practica02$ cabal build
 cabal test
 Resolving dependencies...
@@ -81,6 +79,3 @@ package requires installed instance)
 [__1] fail (backjumping, conflict set: Practica02, base)
 After searching the rest of the dependency tree exhaustively, these were the
 goals I've had most trouble fulfilling: base, Practica02
-
-
-Esos serian los problemas que surgieron al juntar las 3 partes de la practica
