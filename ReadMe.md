@@ -22,9 +22,9 @@ Si no les llegan a funcionar, es posible que el problema es que tengan una versi
 
 En esta sección deben eliminar esta línea de texto, borrar la leyenda "Integrante n" y escribir su nombre empezando por apellidos y su número de cuenta.
 
-+ Ismael Alejandro Mendoza Rodríguez
++ Mendoza Rodríguez Ismael Alejandro
     - No. de Cuenta: 320022405
-+ Evelyn Vianey Mondragón Ceballos
++ Mondragón Ceballos Evelyn Vianey
     - No. de Cuenta: 323157814
 + Botello Salcido Gustavo
     - No. de Cuenta: 323177308
