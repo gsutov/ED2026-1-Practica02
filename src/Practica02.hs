@@ -63,10 +63,7 @@ diferenciaSimetrica xs ys = [x | x <- xs, not (contiene ys x)]
 --Dada una lista, esta función debe calcular el conjunto potencia de la lista ingresada
 conjuntoPotencia :: [a] -> [[a]]
 conjuntoPotencia [] = [[]]
-conjuntoPotencia (x:xs) =
-    let resto = conjuntoPotencia xs
-    in map (x:) resto ++ resto
-
+conjuntoPotencia (x:xs) = [x:ys | ys <- conjuntoPotencia xs] ++ conjuntoPotencia xs
 --LISTAS DE LONGITUD PAR
 --Esta va de regalo
 type ListaPar a b = [(a,b)]
